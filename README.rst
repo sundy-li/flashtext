@@ -1,6 +1,16 @@
 =========
-flash text is a simple and fast keyword extract tool in go
+flashtext
 =========
+
+
+
+What's it
+------------
+Flashtext is a simple and fast keyword extract tool in go.
+
+It was inspired by the paper `Medium freeCodeCamp <https://medium.freecodecamp.org/regex-was-taking-5-days-flashtext-does-it-in-15-minutes-55f04411025f>`_
+, here is the python implement:`<https://github.com/vi3k6i5/flashtext>`_
+
 
 
 Installation
