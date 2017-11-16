@@ -1,0 +1,857 @@
+[
+  {
+    "Sentence": "I like python",
+    "keyword_dict": {
+      "Python": [
+        "python"
+      ]
+    },
+    "Explaination": "Keyword at the end of the sentence.",
+    "Keywords": [
+      "Python"
+    ],
+    "keywords_case_sensitive": [
+      "Python"
+    ]
+  },
+  {
+    "Sentence": "python I like",
+    "keyword_dict": {
+      "Python": [
+        "python"
+      ]
+    },
+    "Explaination": "Keyword at the beginning of the sentence.",
+    "Keywords": [
+      "Python"
+    ],
+    "keywords_case_sensitive": [
+      "Python"
+    ]
+  },
+  {
+    "Sentence": "I like python also",
+    "keyword_dict": {
+      "Python": [
+        "python"
+      ]
+    },
+    "Explaination": "Keyword before the end of the sentence.",
+    "Keywords": [
+      "Python"
+    ],
+    "keywords_case_sensitive": [
+      "Python"
+    ]
+  },
+  {
+    "Sentence": "I like python java",
+    "keyword_dict": {
+      "Java": [
+        "java"
+      ],
+      "Python": [
+        "python"
+      ]
+    },
+    "Explaination": "Multiple keywords in the end of the sentence.",
+    "Keywords": [
+      "Python",
+      "Java"
+    ],
+    "keywords_case_sensitive": [
+      "Python",
+      "Java"
+    ]
+  },
+  {
+    "Sentence": "I like python and java",
+    "keyword_dict": {
+      "Java": [
+        "java"
+      ],
+      "Python": [
+        "python"
+      ]
+    },
+    "Explaination": "Multiple keywords in the sentence with other word in between.",
+    "Keywords": [
+      "Python",
+      "Java"
+    ],
+    "keywords_case_sensitive": [
+      "Python",
+      "Java"
+    ]
+  },
+  {
+    "Sentence": "python",
+    "keyword_dict": {
+      "Python": [
+        "python"
+      ]
+    },
+    "Explaination": "Single keyword in the sentence.",
+    "Keywords": [
+      "Python"
+    ],
+    "keywords_case_sensitive": [
+      "Python"
+    ]
+  },
+  {
+    "Sentence": " python",
+    "keyword_dict": {
+      "Python": [
+        "python"
+      ]
+    },
+    "Explaination": "Single keyword in the sentence with space prefix.",
+    "Keywords": [
+      "Python"
+    ],
+    "keywords_case_sensitive": [
+      "Python"
+    ]
+  },
+  {
+    "Sentence": "I like r",
+    "keyword_dict": {
+      "R": [
+        "r"
+      ]
+    },
+    "Explaination": "Single char keyword at the end of the sentence.",
+    "Keywords": [
+      "R"
+    ],
+    "keywords_case_sensitive": [
+      "R"
+    ]
+  },
+  {
+    "Sentence": "r I like",
+    "keyword_dict": {
+      "R": [
+        "r"
+      ]
+    },
+    "Explaination": "Single char keyword at the beginning of the sentence.",
+    "Keywords": [
+      "R"
+    ],
+    "keywords_case_sensitive": [
+      "R"
+    ]
+  },
+  {
+    "Sentence": "I like R also",
+    "keyword_dict": {
+      "R": [
+        "r"
+      ]
+    },
+    "Explaination": "Single char keyword before the end of the sentence.",
+    "Keywords": [
+      "R"
+    ],
+    "keywords_case_sensitive": []
+  },
+  {
+    "Sentence": "I like R java",
+    "keyword_dict": {
+      "Java": [
+        "java"
+      ],
+      "R": [
+        "r"
+      ]
+    },
+    "Explaination": "Multiple keywords in the end of the sentence.",
+    "Keywords": [
+      "R",
+      "Java"
+    ],
+    "keywords_case_sensitive": [
+      "Java"
+    ]
+  },
+  {
+    "Sentence": "I like R and java",
+    "keyword_dict": {
+      "Java": [
+        "java"
+      ],
+      "R": [
+        "r"
+      ]
+    },
+    "Explaination": "Multiple keywords in the sentence with other word in between.",
+    "Keywords": [
+      "R",
+      "Java"
+    ],
+    "keywords_case_sensitive": [
+      "Java"
+    ]
+  },
+  {
+    "Sentence": "R",
+    "keyword_dict": {
+      "R": [
+        "r"
+      ]
+    },
+    "Explaination": "Single character keyword in the sentence.",
+    "Keywords": [
+      "R"
+    ],
+    "keywords_case_sensitive": []
+  },
+  {
+    "Sentence": " r",
+    "keyword_dict": {
+      "R": [
+        "r"
+      ]
+    },
+    "Explaination": "Single character keyword in the sentence with space prefix.",
+    "Keywords": [
+      "R"
+    ],
+    "keywords_case_sensitive": [
+      "R"
+    ]
+  },
+  {
+    "Sentence": "I like distributed super computing",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ]
+    },
+    "Explaination": "Multi word Keyword at the end of the sentence.",
+    "Keywords": [
+      "Distributed Super Computing"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing"
+    ]
+  },
+  {
+    "Sentence": "distributed super computing I like",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ]
+    },
+    "Explaination": "Multi word Keyword at the beginning of the sentence.",
+    "Keywords": [
+      "Distributed Super Computing"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing"
+    ]
+  },
+  {
+    "Sentence": "I like distributed super computing also",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ]
+    },
+    "Explaination": "Multi word Keyword before the end of the sentence.",
+    "Keywords": [
+      "Distributed Super Computing"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing"
+    ]
+  },
+  {
+    "Sentence": "I like distributed super computing java",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ],
+      "Java": [
+        "java"
+      ]
+    },
+    "Explaination": "Multi word Keyword at the end of the sentence.",
+    "Keywords": [
+      "Distributed Super Computing",
+      "Java"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing",
+      "Java"
+    ]
+  },
+  {
+    "Sentence": "I like distributed super computing java programing",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ],
+      "Java": [
+        "java programing"
+      ]
+    },
+    "Explaination": "Multiple Multi word Keyword at the end of the sentence.",
+    "Keywords": [
+      "Distributed Super Computing",
+      "Java"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing",
+      "Java"
+    ]
+  },
+  {
+    "Sentence": "I like distributed super computing and java",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ],
+      "Java": [
+        "java"
+      ]
+    },
+    "Explaination": "Multiple keywords in the sentence with other word in between.",
+    "Keywords": [
+      "Distributed Super Computing",
+      "Java"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing",
+      "Java"
+    ]
+  },
+  {
+    "Sentence": "distributed super computing",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ]
+    },
+    "Explaination": "Single Multi word Keyword in the sentence.",
+    "Keywords": [
+      "Distributed Super Computing"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing"
+    ]
+  },
+  {
+    "Sentence": " distributed super computing",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ]
+    },
+    "Explaination": "Single Multi word Keyword in the sentence with space prefix.",
+    "Keywords": [
+      "Distributed Super Computing"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing"
+    ]
+  },
+  {
+    "Sentence": "distributed super computing distributed super computing",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ]
+    },
+    "Explaination": "Multi word Keyword twice",
+    "Keywords": [
+      "Distributed Super Computing",
+      "Distributed Super Computing"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing",
+      "Distributed Super Computing"
+    ]
+  },
+  {
+    "Sentence": "distributed super distributed super computing",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ]
+    },
+    "Explaination": "Multi word Keyword partial then complete.",
+    "Keywords": [
+      "Distributed Super Computing"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing"
+    ]
+  },
+  {
+    "Sentence": "distributed super distributed super computing java",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ],
+      "Java": [
+        "java"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [
+      "Distributed Super Computing",
+      "Java"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing",
+      "Java"
+    ]
+  },
+  {
+    "Sentence": "distributed super distributed super computing institute",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ],
+      "Distributed Super Computing Institute": [
+        "distributed super computing institute"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [
+      "Distributed Super Computing Institute"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing Institute"
+    ]
+  },
+  {
+    "Sentence": "distributed super distributed super computing insti",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ],
+      "Distributed Super Computing Institute": [
+        "distributed super computing institute"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [
+      "Distributed Super Computing"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing"
+    ]
+  },
+  {
+    "Sentence": "distributed super distributed super computing insti java",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ],
+      "Distributed Super Computing Institute": [
+        "distributed super computing institute"
+      ],
+      "Java": [
+        "java"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [
+      "Distributed Super Computing",
+      "Java"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing",
+      "Java"
+    ]
+  },
+  {
+    "Sentence": "distributed super distributed super computing institute java",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ],
+      "Distributed Super Computing Institute": [
+        "distributed super computing institute"
+      ],
+      "Java": [
+        "java"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [
+      "Distributed Super Computing Institute",
+      "Java"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing Institute",
+      "Java"
+    ]
+  },
+  {
+    "Sentence": "distributed super distributed super computing institute and java",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ],
+      "Distributed Super Computing Institute": [
+        "distributed super computing institute"
+      ],
+      "Java": [
+        "java"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [
+      "Distributed Super Computing Institute",
+      "Java"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing Institute",
+      "Java"
+    ]
+  },
+  {
+    "Sentence": "distributed super distributed super computing insti r",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ],
+      "Distributed Super Computing Institute": [
+        "distributed super computing institute"
+      ],
+      "R": [
+        "r"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [
+      "Distributed Super Computing",
+      "R"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing",
+      "R"
+    ]
+  },
+  {
+    "Sentence": "distributed super distributed super computing institute r",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ],
+      "Distributed Super Computing Institute": [
+        "distributed super computing institute"
+      ],
+      "R": [
+        "r"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [
+      "Distributed Super Computing Institute",
+      "R"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing Institute",
+      "R"
+    ]
+  },
+  {
+    "Sentence": "distributed super distributed super computing institute and r",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ],
+      "Distributed Super Computing Institute": [
+        "distributed super computing institute"
+      ],
+      "R": [
+        "r"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [
+      "Distributed Super Computing Institute",
+      "R"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing Institute",
+      "R"
+    ]
+  },
+  {
+    "Sentence": "distributed pronoun game",
+    "keyword_dict": {
+      "Distributed Programing": [
+        "distributed programing"
+      ],
+      "Pronoun Game": [
+        "pronoun game"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [
+      "Pronoun Game"
+    ],
+    "keywords_case_sensitive": [
+      "Pronoun Game"
+    ]
+  },
+  {
+    "Sentence": "distributed super computer game",
+    "keyword_dict": {
+      "Computer Game": [
+        "computer game"
+      ],
+      "Distributed Super Computer": [
+        "distributed super computer"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [
+      "Distributed Super Computer"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computer"
+    ]
+  },
+  {
+    "Sentence": "distributed super computer game",
+    "keyword_dict": {
+      "Computer Game": [
+        "computer game"
+      ],
+      "Distributed Super Company": [
+        "distributed super company"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [
+      "Computer Game"
+    ],
+    "keywords_case_sensitive": [
+      "Computer Game"
+    ]
+  },
+  {
+    "Sentence": "distributed super computer game",
+    "keyword_dict": {
+      "Computer Game": [
+        "computer game"
+      ],
+      "Distributed Super Company": [
+        "distributed super company"
+      ],
+      "Super Computer": [
+        "super computer"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [
+      "Super Computer"
+    ],
+    "keywords_case_sensitive": [
+      "Super Computer"
+    ]
+  },
+  {
+    "Sentence": "distributed super compute game",
+    "keyword_dict": {
+      "Computer Game": [
+        "computer game"
+      ],
+      "Distributed Super Company": [
+        "distributed super company"
+      ],
+      "Super Computer": [
+        "super computer"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [],
+    "keywords_case_sensitive": []
+  },
+  {
+    "Sentence": "computer game development",
+    "keyword_dict": {
+      "Computer Game": [
+        "computer game"
+      ],
+      "Computer Game Development": [
+        "computer game development"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [
+      "Computer Game Development"
+    ],
+    "keywords_case_sensitive": [
+      "Computer Game Development"
+    ]
+  },
+  {
+    "Sentence": "computer game development",
+    "keyword_dict": {
+      "Computer Game Development": [
+        "computer game development"
+      ],
+      "Computer Gaming": [
+        "computer gaming"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [
+      "Computer Game Development"
+    ],
+    "keywords_case_sensitive": [
+      "Computer Game Development"
+    ]
+  },
+  {
+    "Sentence": "I like .net",
+    "keyword_dict": {
+      ".NET": [
+        ".net"
+      ]
+    },
+    "Explaination": "keyword with special character",
+    "Keywords": [
+      ".NET"
+    ],
+    "keywords_case_sensitive": [
+      ".NET"
+    ]
+  },
+  {
+    "Sentence": "I like c++",
+    "keyword_dict": {
+      "Cpp": [
+        "c++"
+      ]
+    },
+    "Explaination": "keyword with special character",
+    "Keywords": [
+      "Cpp"
+    ],
+    "keywords_case_sensitive": [
+      "Cpp"
+    ]
+  },
+  {
+    "Sentence": "python.",
+    "keyword_dict": {
+      "Python": [
+        "python."
+      ]
+    },
+    "Explaination": "Ending with special character",
+    "Keywords": [
+      "Python"
+    ],
+    "keywords_case_sensitive": [
+      "Python"
+    ]
+  },
+  {
+    "Sentence": "python ",
+    "keyword_dict": {
+      "Python": [
+        "python"
+      ]
+    },
+    "Explaination": "Ending with special character",
+    "Keywords": [
+      "Python"
+    ],
+    "keywords_case_sensitive": [
+      "Python"
+    ]
+  },
+  {
+    "Sentence": "i like python programming",
+    "keyword_dict": {
+      "Python": [
+        "python prog"
+      ]
+    },
+    "Explaination": "Negative test case",
+    "Keywords": [],
+    "keywords_case_sensitive": []
+  },
+  {
+    "Sentence": "distributed super distributed super computing institute java",
+    "keyword_dict": {
+      "Distributed Super Computing": [
+        "distributed super computing"
+      ],
+      "Distributed Super Computing Institutes": [
+        "distributed super computing institutes"
+      ],
+      "Institute": [
+        "institute"
+      ],
+      "Java": [
+        "java"
+      ]
+    },
+    "Explaination": "Negative test case",
+    "Keywords": [
+      "Distributed Super Computing",
+      "Institute",
+      "Java"
+    ],
+    "keywords_case_sensitive": [
+      "Distributed Super Computing",
+      "Institute",
+      "Java"
+    ]
+  },
+  {
+    "Sentence": "targets relative to targets of the IRE1/XBP1s and PERK arms of the UPR",
+    "keyword_dict": {
+      "IRE1": [
+        "IRE1"
+      ],
+      "UPR": [
+        "upr"
+      ],
+      "XBP1s": [
+        "XBP1s"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [
+      "IRE1",
+      "XBP1s",
+      "UPR"
+    ],
+    "keywords_case_sensitive": [
+      "IRE1",
+      "XBP1s"
+    ]
+  },
+  {
+    "Sentence": "spring framework",
+    "keyword_dict": {
+      "framework": [
+        "framework"
+      ],
+      "spring framework": [
+        "spring",
+        "spring framework"
+      ]
+    },
+    "Explaination": "",
+    "Keywords": [
+      "spring framework"
+    ],
+    "keywords_case_sensitive": [
+      "spring framework"
+    ]
+  }
+]
