@@ -19,27 +19,35 @@ func TestExtract(t *testing.T) {
 	//case insensitive
 	for _, c := range extractCases {
 		p := NewKeywordProcessor()
-		p.SetConfig(false)
+		p.SetCaseSenstive(false)
 		for cleanName, keywords := range c.KeywordDict {
 			for _, keyword := range keywords {
 				p.AddKeywordAndName(keyword, cleanName)
 			}
 		}
-		res := p.Extracts(c.Sentence, true)
-		assert.EqualValues(t, c.Keywords, res, "insensitive keywords should match at sentence:"+c.Sentence)
+		res := p.ExtractKeywords(c.Sentence, &Option{Longest: true})
+		resultArray := []string{}
+		for _, result := range res {
+			resultArray = append(resultArray, result.Keyword)
+		}
+		assert.EqualValues(t, c.Keywords, resultArray, "insensitive keywords should match at sentence:"+c.Sentence)
 	}
 
 	//case sensitive
 	for _, c := range extractCases {
 		p := NewKeywordProcessor()
-		p.SetConfig(true)
+		p.SetCaseSenstive(true)
 		for cleanName, keywords := range c.KeywordDict {
 			for _, keyword := range keywords {
 				p.AddKeywordAndName(keyword, cleanName)
 			}
 		}
-		res := p.Extracts(c.Sentence, true)
-		assert.EqualValues(t, c.KeywordsCaseSensitive, res, "sensitive keywords should match at sentence:"+c.Sentence)
+		res := p.ExtractKeywords(c.Sentence, &Option{Longest: true})
+		resultArray := []string{}
+		for _, result := range res {
+			resultArray = append(resultArray, result.Keyword)
+		}
+		assert.EqualValues(t, c.KeywordsCaseSensitive, resultArray, "sensitive keywords should match at sentence:"+c.Sentence)
 	}
 }
 
@@ -48,7 +56,7 @@ func TestRemove(t *testing.T) {
 	//case insensitive
 	for _, c := range removeCases {
 		p := NewKeywordProcessor()
-		p.SetConfig(false)
+		p.SetCaseSenstive(false)
 		for cleanName, keywords := range c.KeywordDict {
 			for _, keyword := range keywords {
 				p.AddKeywordAndName(keyword, cleanName)
@@ -57,14 +65,18 @@ func TestRemove(t *testing.T) {
 		for _, keywords := range c.RemoveKeywordDict {
 			p.RemoveKeywords(keywords...)
 		}
-		res := p.Extracts(c.Sentence, true)
-		assert.EqualValues(t, c.Keywords, res, "insensitive keywords should match at sentence:"+c.Sentence)
+		res := p.ExtractKeywords(c.Sentence, &Option{Longest: true})
+		resultArray := []string{}
+		for _, result := range res {
+			resultArray = append(resultArray, result.Keyword)
+		}
+		assert.EqualValues(t, c.Keywords, resultArray, "insensitive keywords should match at sentence:"+c.Sentence)
 	}
 
 	//case sensitive
 	for _, c := range removeCases {
 		p := NewKeywordProcessor()
-		p.SetConfig(true)
+		p.SetCaseSenstive(true)
 		for cleanName, keywords := range c.KeywordDict {
 			for _, keyword := range keywords {
 				p.AddKeywordAndName(keyword, cleanName)
@@ -73,8 +85,12 @@ func TestRemove(t *testing.T) {
 		for _, keywords := range c.RemoveKeywordDict {
 			p.RemoveKeywords(keywords...)
 		}
-		res := p.Extracts(c.Sentence, true)
-		assert.EqualValues(t, c.KeywordsCaseSensitive, res, "sensitive keywords should match at sentence:"+c.Sentence)
+		res := p.ExtractKeywords(c.Sentence, &Option{Longest: true})
+		resultArray := []string{}
+		for _, result := range res {
+			resultArray = append(resultArray, result.Keyword)
+		}
+		assert.EqualValues(t, c.KeywordsCaseSensitive, resultArray, "sensitive keywords should match at sentence:"+c.Sentence)
 	}
 }
 

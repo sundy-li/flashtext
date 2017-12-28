@@ -721,10 +721,8 @@
     },
     "Explaination": "keyword with special character",
     "Keywords": [
-      ".NET"
     ],
     "keywords_case_sensitive": [
-      ".NET"
     ]
   },
   {
@@ -802,12 +800,10 @@
     "Explaination": "Negative test case",
     "Keywords": [
       "Distributed Super Computing",
-      "Institute",
       "Java"
     ],
     "keywords_case_sensitive": [
       "Distributed Super Computing",
-      "Institute",
       "Java"
     ]
   },

@@ -1,9 +1,9 @@
 package flashtext
 
 type trie struct {
-	key      rune
-	next     map[rune]*trie
-	endpoint bool
+	key  rune
+	next map[rune]*trie
+	word string
 }
 
 func NewTrie(r rune) *trie {
@@ -18,7 +18,7 @@ func (t *trie) addKeyword(keyword string) {
 	for _, r := range keyword {
 		pos = pos.getOrSet(r)
 	}
-	pos.endpoint = true
+	pos.word = keyword
 }
 
 func (t *trie) removeKeyword(keyword string) {
@@ -27,7 +27,7 @@ func (t *trie) removeKeyword(keyword string) {
 		pos = pos.getOrSet(r)
 	}
 	//fake delete
-	pos.endpoint = false
+	pos.word = ""
 }
 
 func (t *trie) getOrSet(r rune) *trie {
@@ -48,5 +48,5 @@ func (t *trie) exists(keyword string) bool {
 			return false
 		}
 	}
-	return keytrie.endpoint
+	return keytrie.word != ""
 }
